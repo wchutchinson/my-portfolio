@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Will Hutchinson Creative Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Will Hutchinson</h1>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contact-me">Contact Me</a>
+            <a href="#contact-me">Resume</a>
+        </nav>
+    </header>
+    <div class="banner">
+        <h2>Code's a beach!</h2>
+    </div>
+
+    <main>
+        <div class="page-wrapper">
+            <section class="page-section" id="about-me">
+                <h2>About Me</h2>
+                <div><!--<p> has to be in a div-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            
+                </div>
+            </section>
+            </section>
+            <section class="page-section" id="work">
+                <h2>Work</h2>
+                <div class="flex-container">
+                    <div class="flex-item run-buddy" id="item1"> <!--when this was section, it wouldn't work right-->
+                        <div>
+                            <h3>First Item</h3>
+                            <h4>Random Stuff</h4>
+                        </div>
+                    </div>
+                    <div class="flex-item led-wall" id="item2">
+                        <div>
+                            <h3>Second Item</h3>
+                            <h4>Random Stuff</h4>
+                        </div>
+                    </div>
+                    <div class="flex-item react-calc" id="item3">
+                        <div>
+                            <h3>Third Item</h3>
+                            <h4>Random Stuff</h4>
+                        </div>
+                    </div>
+                    <div class="flex-item pastel-puzzles" id="item4">
+                        <div>
+                            <h3>Forth Item</h3>
+                            <h4>Random Stuff</h4>
+                        </div>
+                    </div>
+                    <div class="flex-item surf-report" id="item5">
+                        <div>
+                            <h3>Fifth Item</h3>
+                            <h4>Random Stuff</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page-section" id="contact-me">
+                <h2>Contact Me</h2>
+                <div class="contact">
+                    <address>
+                        <a href="tel:5555555555">555.555.5555</a>
+                        <a href="mailto:will@codesabeach.com" alt="email">will@codesabeach.com</a>
+                        <a href="https://github.com/">GitHub</a>
+                        <a href="https://x.com/">X (Twitter)</a>
+                        <a href="https://open.spotify.com/">Spotify</a>
+                    </address>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script>
+        const item1link=document.querySelector("#item1");
+        const item2link=document.querySelector("#item2");
+        const item3link=document.querySelector("#item3");
+        const item4link=document.querySelector("#item4");
+        const item5link=document.querySelector("#item5");
+
+        item1link.addEventListener("click", () => {
+            window.open("https://wchutchinson.github.io/mini-project-wk1/", "_blank");
+        });
+
+        item2link.addEventListener("click", () => {
+            //window.open("https://wchutchinson.github.io/mini-project-wk1/", "_blank");
+            alert("Place Holder");
+        });
+
+        item3link.addEventListener("click", () => {
+            //window.open("https://wchutchinson.github.io/mini-project-wk1/", "_blank");
+            alert("Place Holder");
+        });
+
+        item4link.addEventListener("click", () => {
+            //window.open("https://wchutchinson.github.io/mini-project-wk1/", "_blank");
+            alert("Place Holder")
+        });
+
+        item5link.addEventListener("click", () => {
+            //window.open("https://wchutchinson.github.io/mini-project-wk1/", "_blank");
+            alert("Place Holder")
+        });
+    </script>
+</body>
+
+</html>
